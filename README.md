@@ -33,4 +33,4 @@
 + input ip device, port:3333  , username: luuphuong, passwork: kuuhaku
 
 
---open browser:  localhost
+--open browser:  http://localhost/index.php
