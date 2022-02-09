@@ -1,0 +1,5 @@
+FROM nginx:latest
+ADD ./nginx.conf /etc/nginx/con.d/default.config
+ADD ./index.php /usr/share/nginx/html
+ADD ./a.html /usr/share/nginx/html
+EXPOSE 80 443
