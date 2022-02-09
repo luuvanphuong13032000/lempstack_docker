@@ -1,0 +1,7 @@
+FROM mysql:latest
+
+ADD ./my.cnf /etc/mysql/my.cnf 
+
+ENV MYSQL_ROOT_PASSWOD=kuuhaku
+
+EXPOSE 3306
